@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <!-- WELCOME start -->
+    <div>
+        <h1>WELCOME</h1>
+        <input type="text" placeholder="Enter Your Name" id="input_name" onkeyup="welcome()">
+        <h3 id="welcome"></h3>
+    </div>
+    <!-- WELCOME END -->
+
+
+
+    <!-- grade calculator start -->
+    <h1>Grade Calculator</h1>
+    <input type="number" placeholder="Enter your number" id="input_number" onkeyup="calculateGrade()">
+    <h3 id="result"></h3>
+    <!-- grade calculator end -->
+
+
+    <!-- ODD & EVEN Start -->
+   <div>
+    <h1 class="number_checK">check ODD or Even</h1>
+    <input type="number"  placeholder="Get a Number" id="number" onkeyup="oddeven()">
+    <h3 id="oddeven"></h3>
+   </div>
+   <!-- ODD & EVEN END -->
+
+    <!--1 to 100 print with even odd  start -->
+   <div class="even_odd">
+    <h1>1 to 100 print with even odd</h1>
+   </div>
+   <!--1 to 100 print with even odd  end -->
+
+    <script src="JS/app.js"></script>
+</body>
+</html>

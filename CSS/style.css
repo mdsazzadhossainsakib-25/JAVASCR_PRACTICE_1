@@ -1,0 +1,48 @@
+/* Common CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Common CSS End */
+/* calculator start */
+h1{
+    color: rgb(243, 28, 28);
+    background-color: aquamarine;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+
+}
+#input_name {
+    padding: 20px 50px;
+    background-color: rgb(182, 247, 242);
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+#input_number{
+    padding: 20px 50px;
+    background-color: rgb(182, 247, 242);
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+#number {
+    padding: 20px 50px;
+    background-color: rgb(182, 247, 242);
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+h3{
+    color: greenyellow;
+    background-color: rgb(7, 7, 26);
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
